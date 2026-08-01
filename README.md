@@ -1,2 +1,4 @@
 # Household-Electric-Power-Consumption-Prediction-using-Machine-Learning
-Built a complete end-to-end machine learning pipeline to analyze and predict household electricity consumption using a real-world time series dataset.
+Python | Pandas | Scikit-learn | XGBoost | TensorFlow | Matplotlib | Seaborn
+
+Developed an end-to-end machine learning pipeline to analyze and predict household electricity consumption from a real-world time series dataset. Performed data cleaning, time-based interpolation for missing values, and resampled minute-level readings into hourly averages. Engineered time-based features (hour, day of week, weekend flag) and applied MinMaxScaler normalization. Conducted exploratory data analysis through correlation heatmaps, boxplots, and trend visualizations. Trained and compared 7 models — Linear Regression, SVM, Gradient Boosting, Random Forest, MLP Neural Network, XGBoost, and LSTM — evaluated using RMSE, R², and MAE. Tree-based models achieved the highest accuracy, with Sub-metering 3 and hour of day identified as the most influential predictors.
